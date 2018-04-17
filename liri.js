@@ -3,12 +3,10 @@ require("dotenv").config();
 var keys = require("./keys.js");
 
 var Twitter = require('twitter');
+var Spotify = require('node-spotify-api');
 
-var client = new Twitter(commands);
-    // consumer_key: process.env.4TynDgXQ1xyFlFtv54SRiY2G5,
-    // consumer_secret:process.env.sdChnwmaAKeLthabDXO3EDFkWeA7gbDRSaFnM97CDspcV2dLhv,
-    // access_token_key:process.env.985274193079128065-haMhpurYBXaGjt1bQkiHB69OSIcildA,
-    // access_token_secret:process.env.jm8SllXNikn5zxas4DKCk6OWU8uTMTm0lzfLfwDmaOnY9
+var client = new Twitter(keys.twitter);
+var spotify = new Spotify(keys.spotify);
 
 var params = {screen_name: 'nodejs'};
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
