@@ -123,3 +123,78 @@ Artist: Wisin & Yandel
 Song: Abusadora
 Preview Link: https://open.spotify.com/track/6oBKEO0cp9dHigcpnMXUnU
 Album: Wisin & Yandel y Amigos
+
+Artist: Wisin & Yandel
+Song: Abusadora
+Preview Link: https://open.spotify.com/track/6oBKEO0cp9dHigcpnMXUnU
+Album: Wisin & Yandel y Amigos
+
+Artist: Wisin & Yandel
+Song: Abusadora
+Preview Link: https://open.spotify.com/track/6oBKEO0cp9dHigcpnMXUnU
+Album: Wisin & Yandel y Amigos
+
+Artist: Cultura Profética
+Song: Nadie Se Atreve
+Preview Link: https://open.spotify.com/track/1FqIXAu4SZHkitzyS1HfjL
+Album: M.O.T.A.
+
+Artist: Calle 13
+Song: Atrévete-Te-Te
+Preview Link: https://open.spotify.com/track/1q8NdCAQ9QUjpYiqzdd3mv
+Album: Calle 13 (Explicit Version)
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Daddy Yankee
+Song: Pasarela
+Preview Link: https://open.spotify.com/track/4yORNsoYe4XnK99EXhKhWB
+Album: Prestige
+
+Artist: Wisin & Yandel
+Song: Rakata
+Preview Link: https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN
+Album: Pa'l Mundo
+
+Artist: Wisin & Yandel
+Song: Rakata
+Preview Link: https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN
+Album: Pa'l Mundo
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Wisin & Yandel
+Song: Rakata
+Preview Link: https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN
+Album: Pa'l Mundo
+
+Artist: Kendrick Lamar
+Song: All The Stars (with SZA)
+Preview Link: https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s
+Album: Black Panther The Album Music From And Inspired By
+
+Artist: Nicky Jam
+Song: El Amante
+Preview Link: https://open.spotify.com/track/3umS4y3uQDkqekNjVpiRUs
+Album: Fénix

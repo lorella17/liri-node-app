@@ -1,10 +1,8 @@
 require("dotenv").config();
 
 //global variable
-var commands = process.argv;
-var tweetInput = process.argv[2];
-var songInput = process.argv[3];
-var movieInput = process.argv[4];
+var commands = process.argv[2];
+var userInput = process.argv[3];
 
 //get file system
 var fs = require('fs');
@@ -20,23 +18,23 @@ var client = new Twitter(keys.twitter);
 var spotify = new Spotify(keys.spotify);
 
 
-runCommands = function () {
+function runCommands(commands, userInput) {
 
-        switch (command) {
+        switch (commands) {
 
             case 'my-tweets':
                 console.log("my-tweets");
-                myTweets();
+                myTweets(userInput);
                 break;
 
             case 'spotify-this-song':
                 console.log("spotify-this-song");
-                spotifySongs();
+                song(userInput);
                 break;
 
             case 'movie-this':
                 console.log("movie-this");
-                getMovieInfo();
+                getMovie(userInput);
                 break;
 
             case 'do-what-it-says':
@@ -49,10 +47,9 @@ runCommands = function () {
     };
 
 
+    var myTweets = function (userInput) {
 
-    mytweets = function () {
-
-        if (!tweetInput){
+        if (!userInput){
             var params = {screen_name: "orellanaleo8", count: 10};
             client.get('statuses/user_timeline', params, function (error, tweets, response) {
                 if (error) {
@@ -67,7 +64,7 @@ runCommands = function () {
             });
 
         } else
-        var params = {screen_name: tweetInput, count: 10};
+        var params = {screen_name: userInput, count: 10};
         client.get('statuses/user_timeline', params, function (error, tweets, response) {
             if (error) {
                 console.log(error);
@@ -82,11 +79,10 @@ runCommands = function () {
 
     };
 
-    mytweets();
 
-    song = function () {
+    var song = function (userInput) {
 
-        if (!songInput) {
+        if (!userInput) {
             spotify.search({ type: 'track', query: "Rakata", limit: 1 }, function (err, data) {
                 if (err) {
                     return console.log(+ err);
@@ -106,7 +102,7 @@ runCommands = function () {
 
             });
         } else {
-            spotify.search({ type: 'track', query: songInput, limit: 1 }, function (err, data) {
+            spotify.search({ type: 'track', query: userInput, limit: 1 }, function (err, data) {
                 if (err) {
                     return console.log(err);
                 }
@@ -126,11 +122,10 @@ runCommands = function () {
             });
         }
     };
-    song();
 
 
-getMovie = function() {
-    if (!movieInput) {
+var getMovie = function(userInput) {
+    if (!userInput) {
         request(`http://www.omdbapi.com/?t=mr.nobody&apikey=trilogy`, function (error, response, body) {
             // If the request is successful (i.e. if the response status code is 200)
             if (!error && response.statusCode === 200) {
@@ -147,7 +142,7 @@ getMovie = function() {
         });
 
     } else {
-        request("http://www.omdbapi.com/?t=" + movieInput + "&apikey=trilogy", function (error, response, body) {
+        request("http://www.omdbapi.com/?t=" + userInput + "&apikey=trilogy", function (error, response, body) {
 
             // If the request is successful (i.e. if the response status code is 200)
             if (!error && response.statusCode === 200) {
@@ -165,5 +160,5 @@ getMovie = function() {
 
     }
 };
-    getMovie();
 
+runCommands(commands, userInput);
