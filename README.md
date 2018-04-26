@@ -6,7 +6,10 @@ App will provide fast and easy feedback to user for tweets, spotify and movie in
 
 To retrieve the data that will power this app, we will need to send requests to the Twitter, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
-ScreenShots
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/lorella17/liri-node-app/edit/master/README.md/images/node screenshot.png
 
 Application is user friendly 
 
