@@ -198,3 +198,13 @@ Artist: Nicky Jam
 Song: El Amante
 Preview Link: https://open.spotify.com/track/3umS4y3uQDkqekNjVpiRUs
 Album: Fénix
+
+Artist: Wisin & Yandel
+Song: Rakata
+Preview Link: https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN
+Album: Pa'l Mundo
+
+Artist: Wisin & Yandel
+Song: Rakata
+Preview Link: https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN
+Album: Pa'l Mundo
