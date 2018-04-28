@@ -1,22 +1,34 @@
-# liri-node-app
-LIRI will display your latest tweets. As we do not want to display your personal account, or its keys, please make an alias account and add a few tweets to it!
+Tittle
+liri-node-app
+
+Motivation-
+App will provide fast and easy feedback to user for tweets, spotify and movie information by simply entering; user names (twitter), name of song if searching for a song you want to listen to and movie name to find quick information.  This application will also help me as an aspiring full stack dev understand node better.
 
 To retrieve the data that will power this app, we will need to send requests to the Twitter, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
-Twitter
--will return latest 20 tweets
+Here's our logo (hover to see the title text):
 
-Node-Spotify-API to provide the following;
-- Artist(s)
+Inline-style: 
+![alt text](https://github.com/lorella17/liri-node-app/edit/master/README.md/images/node screenshot.png
 
-- The song's name
+Application is user friendly 
 
-- A preview link of the song from Spotify
+API's used;
+twitter
+spotify 
+ombd
 
-- The album that the song is from
+How application works;
+user would time commands similar to;
+-my-tweets
+-spotify-this-song
+-movie this
+all of these commands would pull data requested via api's
 
-Request
+Contribution
+-received lots of good help from Gene and Andrew i think is his name.  He was covering for Gene Saturday
+-Leaveil also helped me 
 
-You'll use Request to grab data from the OMDB API.
+Credits
+-helped from youtube videos
 
-DotEnv
