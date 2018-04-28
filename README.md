@@ -9,7 +9,7 @@ To retrieve the data that will power this app, we will need to send requests to 
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://ibb.co/fOcbuH)
+(https://ibb.co/fOcbuH)
 
 Application is user friendly 
 
