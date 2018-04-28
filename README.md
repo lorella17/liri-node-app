@@ -9,7 +9,7 @@ To retrieve the data that will power this app, we will need to send requests to 
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-(liri-node-app/node_screenshot.png)
+(liri-node-app/node_screenshot.png?raw=true)
 
 Application is user friendly 
 
